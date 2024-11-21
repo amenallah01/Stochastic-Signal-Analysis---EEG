@@ -1,11 +1,7 @@
-Here’s an extended and more detailed **README.md** file for your project, incorporating the theoretical background, practical implementation, and applications from the document you provided.
-
----
-
 # **Stochastic Signal Analysis with AR Models**
 
 ## **Overview**
-This project explores the analysis and modeling of stochastic processes using Auto-Regressive (AR) models. Implemented in MATLAB, the project covers the following key areas:
+This project explores the analysis and modeling of stochastic processes using Auto-Regressive (AR) models. Implemented in MATLAB, the project covers:
 - Simulating and analyzing synthetic signals.
 - Estimating AR model parameters using various techniques.
 - Computing Power Spectral Density (PSD) and analyzing its properties.
@@ -29,10 +25,10 @@ This project bridges theoretical concepts like stochastic processes, prediction,
 
 ### **2. Parameter Estimation Methods**
 - Implement and compare methods for AR parameter estimation:
-  - Yule-Walker Method: Based on autocorrelation.
-  - Burg Method: Minimizes forward and backward prediction errors.
-  - Covariance Method: Based on empirical covariances.
-  - Modified Covariance Method: Provides robust parameter estimates.
+  - Yule-Walker Method.
+  - Burg Method.
+  - Covariance Method.
+  - Modified Covariance Method.
 
 ### **3. Model Order Selection**
 - Use the Akaike Information Criterion (AIC) to determine the optimal AR order.
@@ -108,8 +104,8 @@ Stochastic-Signal-Analysis/
 ### **Setup**
 1. Clone the repository:
    ```bash
-git clone https://github.com/amenallah01/Stochastic-Signal-Analysis.git
-cd Stochastic-Signal-Analysis
+   git clone https://github.com/amenallah01/Stochastic-Signal-Analysis.git
+   cd Stochastic-Signal-Analysis
    ```
 2. Place the EEG data file (`eeg1.mat`) in the `data/` folder.
 
@@ -161,7 +157,3 @@ This project is licensed under the MIT License.
 
 ## **Acknowledgments**
 Special thanks to the course **U452: Random Processes** for providing the theoretical foundation for this project.
-
----
-
-Would you like help refining specific scripts or creating documentation for parameter estimation methods and EEG signal analysis? Let me know!
