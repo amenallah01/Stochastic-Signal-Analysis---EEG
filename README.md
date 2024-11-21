@@ -1,7 +1,3 @@
-Here’s an updated version of the **README.md** with better representation of math equations:
-
----
-
 # **Stochastic Signal Analysis with AR Models**
 
 ## **Overview**
@@ -56,23 +52,21 @@ This project bridges theoretical concepts like stochastic processes, prediction,
 ## **Theoretical Background**
 
 ### **1. Auto-Regressive Models**
-An AR(\(p\)) model represents a time series \( x_t \) as:
-\[
-x_t = -\sum_{i=1}^p a_i x_{t-i} + \epsilon_t
-\]
-Where:
-- \( a_i \): AR coefficients.
-- \( \epsilon_t \): White noise with mean \(0\) and variance \(\sigma^2\).
+An AR(p) model represents a time series $x_t$ as:
 
-### **2. Akaike Information Criterion (AIC)**
-The AIC is used to determine the optimal AR order. The formula is:
-\[
-AIC(p) = \frac{2p}{T} + \log(\sigma^2)
-\]
+$x_t = -\sum_{i=1}^p a_i x_{t-i} + \epsilon_t$
+
 Where:
-- \( p \): AR order.
-- \( T \): Length of the time series.
-- \( \sigma^2 \): Variance of the white noise.
+- $a_i$: AR coefficients.
+- $\epsilon_t$: White noise with mean 0 and variance $\sigma^2$.
+
+### 2. Akaike Information Criterion (AIC)
+
+The AIC formula is:
+
+$AIC(p) = \frac{2p}{T} + \log(\sigma^2)$
+
+Where $p$ is the AR order, $T$ is the time series length, and $\sigma^2$ is the white noise variance..
 
 ### **3. Power Spectral Density**
 The PSD represents the distribution of signal power over frequency components. AR models provide a parametric method for PSD estimation, contrasting with non-parametric methods like the periodogram.
@@ -138,7 +132,3 @@ Navigate to the `src/` folder in MATLAB and run the desired scripts:
 2. **Signal Processing**: Analyze frequency components for communication systems.
 3. **Neuroscience**: Detect brain rhythms and diagnose neurological conditions using EEG signals.
 4. **Engineering**: Apply spectral analysis techniques to mechanical or electrical systems.
-
----
-
-This version uses LaTeX-style equations that are readable and professional. Let me know if you'd like further refinements!
