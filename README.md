@@ -88,13 +88,9 @@ Stochastic-Signal-Analysis/
 ├── data/                     # Input data (e.g., EEG signals)
 │   └── eeg1.mat              # Example EEG dataset
 ├── src/                      # MATLAB scripts
-│   ├── ar_model_simulation.m # AR model simulation
-│   ├── parameter_estimation.m# Compare AR parameter estimation methods
-│   ├── aic_evaluation.m      # Model order selection using AIC
-│   ├── spectral_analysis.m   # PSD computation
-│   ├── eeg_analysis.m        # EEG signal analysis
-└── docs/                     # Documentation and references
-    └── references/           # Supporting documents or papers
+│  ├── Order_Estimation_AIC.m # AR model simulation
+│  ├── EEG_Analysis.m         # EEG signal analysis
+
 ```
 
 ---
