@@ -107,7 +107,7 @@ Stochastic-Signal-Analysis/
 ### **Setup**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/amenallah01/Stochastic-Signal-Analysis.git
+   git clone https://github.com/amenallah01/Stochastic-Signal-Analysis---EEG.git
    cd Stochastic-Signal-Analysis
    ```
 2. Place the EEG data file (`eeg1.mat`) in the `data/` folder.
