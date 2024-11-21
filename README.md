@@ -1,3 +1,7 @@
+Here’s an updated version of the **README.md** with better representation of math equations:
+
+---
+
 # **Stochastic Signal Analysis with AR Models**
 
 ## **Overview**
@@ -50,24 +54,28 @@ This project bridges theoretical concepts like stochastic processes, prediction,
 ---
 
 ## **Theoretical Background**
+
 ### **1. Auto-Regressive Models**
-An AR(p) model represents a time series \( x_t \) as:
+An AR(\(p\)) model represents a time series \( x_t \) as:
 \[
 x_t = -\sum_{i=1}^p a_i x_{t-i} + \epsilon_t
 \]
 Where:
 - \( a_i \): AR coefficients.
-- \( \epsilon_t \): White noise with mean 0 and variance \( \sigma^2 \).
+- \( \epsilon_t \): White noise with mean \(0\) and variance \(\sigma^2\).
 
 ### **2. Akaike Information Criterion (AIC)**
-The AIC formula is:
+The AIC is used to determine the optimal AR order. The formula is:
 \[
 AIC(p) = \frac{2p}{T} + \log(\sigma^2)
 \]
-Where \( p \) is the AR order, \( T \) is the time series length, and \( \sigma^2 \) is the white noise variance.
+Where:
+- \( p \): AR order.
+- \( T \): Length of the time series.
+- \( \sigma^2 \): Variance of the white noise.
 
 ### **3. Power Spectral Density**
-The PSD represents signal power distributed over frequency components. AR models provide a parametric method for PSD estimation, contrasting with non-parametric methods like the periodogram.
+The PSD represents the distribution of signal power over frequency components. AR models provide a parametric method for PSD estimation, contrasting with non-parametric methods like the periodogram.
 
 ### **4. EEG Signal Rhythms**
 - **Delta (0.5–4 Hz)**: Dominant in deep sleep.
@@ -98,6 +106,7 @@ Stochastic-Signal-Analysis/
 ---
 
 ## **Setup and Installation**
+
 ### **Prerequisites**
 - MATLAB (R2021a or newer) with the Signal Processing Toolbox.
 
@@ -132,28 +141,4 @@ Navigate to the `src/` folder in MATLAB and run the desired scripts:
 
 ---
 
-## **Contributing**
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature"
-   ```
-4. Push to your branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Submit a pull request.
-
----
-
-## **License**
-This project is licensed under the MIT License.
-
----
-
-## **Acknowledgments**
-Special thanks to the course **U452: Random Processes** for providing the theoretical foundation for this project.
+This version uses LaTeX-style equations that are readable and professional. Let me know if you'd like further refinements!
